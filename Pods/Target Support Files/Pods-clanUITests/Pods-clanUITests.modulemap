@@ -1,0 +1,6 @@
+framework module Pods_clanUITests {
+  umbrella header "Pods-clanUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
