@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class loginViewController: UIViewController {
 
+    let loginButton = FBSDKLoginButton()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

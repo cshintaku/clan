@@ -8,6 +8,7 @@ target 'clan' do
   # Pods for clan
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'FBSDKLoginKit'
 
   target 'clanTests' do
     inherit! :search_paths
