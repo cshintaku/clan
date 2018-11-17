@@ -10,8 +10,7 @@
 		33C9323364824C1AD7EADF11 /* Pods_clan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C51E3CEEDE5B926F9CA325B /* Pods_clan.framework */; };
 		61D17558ED7D0D3B67E32971 /* Pods_clanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD588593E1432BEE85E0AE33 /* Pods_clanUITests.framework */; };
 		C2CF62E9219D8BCF00689BB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CF62E8219D8BCF00689BB8 /* AppDelegate.swift */; };
-		C2CF62EB219D8BCF00689BB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CF62EA219D8BCF00689BB8 /* ViewController.swift */; };
-		C2CF62EE219D8BCF00689BB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CF62EC219D8BCF00689BB8 /* Main.storyboard */; };
+		C2CF62EE219D8BCF00689BB8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CF62EC219D8BCF00689BB8 /* Login.storyboard */; };
 		C2CF62F0219D8BD000689BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CF62EF219D8BD000689BB8 /* Assets.xcassets */; };
 		C2CF62F3219D8BD000689BB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CF62F1219D8BD000689BB8 /* LaunchScreen.storyboard */; };
 		C2CF62FE219D8BD000689BB8 /* clanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CF62FD219D8BD000689BB8 /* clanTests.swift */; };
@@ -19,6 +18,7 @@
 		C2CF6317219EDDAF00689BB8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2CF6316219EDDAF00689BB8 /* GoogleService-Info.plist */; };
 		C2CF6318219EDDAF00689BB8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2CF6316219EDDAF00689BB8 /* GoogleService-Info.plist */; };
 		C2CF6319219EDDAF00689BB8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2CF6316219EDDAF00689BB8 /* GoogleService-Info.plist */; };
+		C2CF631D21A0269E00689BB8 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CF631C21A0269E00689BB8 /* loginViewController.swift */; };
 		E7112D508B5FE72243554805 /* Pods_clanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB8D37C6D3D50D316856BAB /* Pods_clanTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +47,7 @@
 		938D06E822F8288D0D57F35A /* Pods-clan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-clan/Pods-clan.debug.xcconfig"; sourceTree = "<group>"; };
 		C2CF62E5219D8BCF00689BB8 /* clan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2CF62E8219D8BCF00689BB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2CF62EA219D8BCF00689BB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C2CF62ED219D8BCF00689BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2CF62ED219D8BCF00689BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		C2CF62EF219D8BD000689BB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2CF62F2219D8BD000689BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2CF62F4219D8BD000689BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		C2CF6308219D8BD000689BB8 /* clanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clanUITests.swift; sourceTree = "<group>"; };
 		C2CF630A219D8BD100689BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2CF6316219EDDAF00689BB8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2CF631C21A0269E00689BB8 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		DB6213E34211A78767294A66 /* Pods-clanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-clanTests/Pods-clanTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD588593E1432BEE85E0AE33 /* Pods_clanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC37FB59BFBB8A22362A3CF /* Pods-clan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clan.release.xcconfig"; path = "Pods/Target Support Files/Pods-clan/Pods-clan.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,13 +128,11 @@
 		C2CF62E7219D8BCF00689BB8 /* clan */ = {
 			isa = PBXGroup;
 			children = (
+				C2CF62E8219D8BCF00689BB8 /* AppDelegate.swift */,
+				C2CF631A21A0238A00689BB8 /* Classes */,
+				C2CF631B21A023A800689BB8 /* storyboard */,
 				C2CF6316219EDDAF00689BB8 /* GoogleService-Info.plist */,
 				C2CF62F4219D8BD000689BB8 /* Info.plist */,
-				C2CF62E8219D8BCF00689BB8 /* AppDelegate.swift */,
-				C2CF62EA219D8BCF00689BB8 /* ViewController.swift */,
-				C2CF62EC219D8BCF00689BB8 /* Main.storyboard */,
-				C2CF62EF219D8BD000689BB8 /* Assets.xcassets */,
-				C2CF62F1219D8BD000689BB8 /* LaunchScreen.storyboard */,
 			);
 			path = clan;
 			sourceTree = "<group>";
@@ -155,6 +153,24 @@
 				C2CF630A219D8BD100689BB8 /* Info.plist */,
 			);
 			path = clanUITests;
+			sourceTree = "<group>";
+		};
+		C2CF631A21A0238A00689BB8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C2CF631C21A0269E00689BB8 /* loginViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C2CF631B21A023A800689BB8 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C2CF62F1219D8BD000689BB8 /* LaunchScreen.storyboard */,
+				C2CF62EC219D8BCF00689BB8 /* Login.storyboard */,
+				C2CF62EF219D8BD000689BB8 /* Assets.xcassets */,
+			);
+			path = storyboard;
 			sourceTree = "<group>";
 		};
 		F44AE98AE1151C44508C31CB /* Pods */ = {
@@ -281,7 +297,7 @@
 				C2CF62F3219D8BD000689BB8 /* LaunchScreen.storyboard in Resources */,
 				C2CF6317219EDDAF00689BB8 /* GoogleService-Info.plist in Resources */,
 				C2CF62F0219D8BD000689BB8 /* Assets.xcassets in Resources */,
-				C2CF62EE219D8BCF00689BB8 /* Main.storyboard in Resources */,
+				C2CF62EE219D8BCF00689BB8 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,11 +327,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-clan/Pods-clan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -385,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2CF62EB219D8BCF00689BB8 /* ViewController.swift in Sources */,
+				C2CF631D21A0269E00689BB8 /* loginViewController.swift in Sources */,
 				C2CF62E9219D8BCF00689BB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,12 +440,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C2CF62EC219D8BCF00689BB8 /* Main.storyboard */ = {
+		C2CF62EC219D8BCF00689BB8 /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C2CF62ED219D8BCF00689BB8 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		C2CF62F1219D8BD000689BB8 /* LaunchScreen.storyboard */ = {

@@ -7,6 +7,7 @@ target 'clan' do
 
   # Pods for clan
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
 
   target 'clanTests' do
     inherit! :search_paths
